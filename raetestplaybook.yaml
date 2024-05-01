@@ -15,7 +15,7 @@
 
     - name: Copy the httpd.conf file to /tmp/ and tag this task called push
       copy:
-        src: /etc/httpd/conf/httpd.conf
+        src: /root/rae-test/httpd.conf
         dest: /tmp/httpd.conf
       tags:
         - push
