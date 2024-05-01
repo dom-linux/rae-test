@@ -13,7 +13,7 @@
       shell:
         cmd: ping 10.1.18.190 >> /tmp/ping-output.txt
 
-    - name: Copy the httpd.conf file to /tmp/ and tag this task called push
+    - name: Copy the httpd.conf file to /tmp and tag this task called push
       copy:
         src: /root/rae-test/httpd.conf
         dest: /tmp/httpd.conf
