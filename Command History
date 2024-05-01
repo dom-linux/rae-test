@@ -1,0 +1,40 @@
+I always used my MTS terminal... I couldn't create a new VM or break root pw because vmware kept kicking me out. I did everything on jump server.
+
+255  ssh-copy-id -i .ssh/id_rsa.pub rtest@192.168.1.99
+  256  ssh rtest@192.168.1.99
+  257  mkdir DomAnsibleApr30
+  258  cd DomAnsibleApr30/
+  259  vim InventoryFile
+  260  vim testplaybook.yaml
+  261  systemctl status httpd
+  262  vim testplaybook.yaml
+  263  vim InventoryFile
+  264  ifconfig
+  265  vim testplaybook.yaml
+  266  ll
+  267  ll /root
+  268  cd
+  269  ll
+  270  cp -r DomAnsibleApr30/ rae-test/
+  271  cd rae-test/
+  272  ll
+  273  git status
+  274  cd
+  275  ll
+  276  scp DomAnsibleApr30/ root@10.1.18.173:/root/
+  277  ll
+  278  cd ra
+  279  cd rae-test/
+  280  ll
+  281  git status
+  282  git add .
+  283  git commit -m "-rtest"
+  284  git push
+  285  git push -u origin main
+  286  ssh admin@192.168.1.209
+  287  cd
+  288  cd DomAnsibleApr30/
+  289  ll
+  290  vim InventoryFile
+  291  vim testplaybook.yaml
+  292  history
